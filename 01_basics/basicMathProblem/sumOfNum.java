@@ -1,3 +1,4 @@
+package basicMathProblem;
 import java.util.*;
 
 public class sumOfNum{
