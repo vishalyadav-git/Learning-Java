@@ -9,7 +9,7 @@ public class multiplicationTable {
         for(int i = 1; i<=10; i++){
             product = n*i;
             System.out.println("Multiplication is: " +product);
-        
+            
         }
     }
 }
