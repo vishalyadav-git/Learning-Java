@@ -12,7 +12,7 @@ public class product {
         int b = sc.nextInt();
         sc.close();
         int sum = productOf(a, b); //function call
-        System.out.println("The product is: " +sum);
+        System.out.println("The product of " +a + " with " + +b +" is " + +sum);
 
     }
 }
