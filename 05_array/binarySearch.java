@@ -1,7 +1,5 @@
 import java.util.*;
 
-
-
 public class binarySearch {
     public static int search(int number[], int key){
         int start = 0;
