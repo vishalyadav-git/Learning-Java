@@ -1,4 +1,5 @@
 import java.util.*;
+// 2D Array
 public class creation {
     // public static boolean create(int matrix[][]){
 
