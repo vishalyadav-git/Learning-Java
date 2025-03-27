@@ -17,7 +17,7 @@ public class Fibonacci {
 
     // Main method for testing
     public static void main(String[] args) {
-        int n = 10; // Number of terms
+        int n = 8; // Number of terms
         System.out.println("Fibonacci Series:");
         printFibonacci(n);
     }
