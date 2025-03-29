@@ -44,7 +44,7 @@ public class bitManipulation {
     
         public static void main(String[] args) {
             int n = 5; // Binary: 101
-            int i = 1;
+            int i = 2;
     
             // Get Bit
             System.out.println("Is bit " + i + " set? " + getBit(n, i)); // true
