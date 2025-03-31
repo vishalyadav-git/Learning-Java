@@ -8,7 +8,7 @@ public class powerOfTwo {
         }
         
         public static void main(String args[]){
-            int n = 1;
+            int n = 2;
            System.out.println(isPowerOfTwo(n)); 
         }
     }
