@@ -20,7 +20,7 @@ public class Laptop {
     // Main method to test the class
     public static void main(String[] args) {
         // Creating objects of Laptop class
-        Laptop laptop1 = new Laptop("Dell", "Intel i7", 75000);
+        Laptop laptop1 = new Laptop("Acer", "Intel i7", 75000);
         Laptop laptop2 = new Laptop("HP", "Ryzen 5", 65000);
 
         // Displaying details
