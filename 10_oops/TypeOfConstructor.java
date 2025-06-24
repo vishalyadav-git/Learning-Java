@@ -25,8 +25,8 @@ class Student {
     }
 
     // Copy constructor
-    Student(Student s) {
-        this.name = s.name;
+    Student(Student s1) {
+        this.name = s1.name;
     }
 
     void display() {
