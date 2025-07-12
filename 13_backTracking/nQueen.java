@@ -1,13 +1,16 @@
 public class nQueen {
+      static int count = 0;
     public static void queen(char board[][], int row){
+      
         //base
         if(row == board.length){
             printBoard(board);
+            count++;
             return;
         }
         for(int j =0;j<board.length;j++){
             board[row][j] = 'Q';
-            queen(board, row+1);
+            queen(board, row+1); 
             board[row][j] = 'X';
         }
     }
@@ -18,6 +21,7 @@ public class nQueen {
                 System.out.print(board[i][j] + " ");
              }
              System.out.println();
+             
         }
     }
     public static void main(String[] args) {
@@ -29,6 +33,7 @@ public class nQueen {
             }
         }
         queen(board, 0);
+        System.out.println(count);
         
     }
 }
