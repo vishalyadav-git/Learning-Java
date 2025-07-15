@@ -1,5 +1,5 @@
 public class sudoku {
-
+ 
     public static boolean isSafe(int[][] board, int row, int col, int num) {
         // check row
         for (int j = 0; j < 9; j++) {
