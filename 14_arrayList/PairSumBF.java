@@ -27,6 +27,6 @@ public class PairSumBF {
 
         int target = 10;
 
-        hasPairWithSum(list, target);  // Output: Pair found: (1, 9)
+        hasPairWithSum(list, target);  
     }
 }
