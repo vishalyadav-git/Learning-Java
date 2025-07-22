@@ -24,7 +24,7 @@ public class printLL {
 
     // Main function
     public static void main(String[] args) {
-        // Manually creating linked list: 1 -> 2 -> 3
+        
         Node first = new Node(1);
         Node second = new Node(2);
         Node third = new Node(3);
@@ -33,7 +33,7 @@ public class printLL {
         first.next = second;
         second.next = third;
 
-        printList();  // Output: 1 -> 2 -> 3 -> null
+        printList(); 
     }
 }
 
