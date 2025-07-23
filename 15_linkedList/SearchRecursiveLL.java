@@ -8,7 +8,7 @@ class Node {
         this.next = null;
     }
 }
-public class searchRecursiveLL {
+public class SearchRecursiveLL {
     public static Node head;
 
     // Recursive search function

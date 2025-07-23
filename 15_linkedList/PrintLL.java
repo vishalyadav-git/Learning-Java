@@ -9,7 +9,7 @@ class Node {
 }
 
 
-public class printLL {
+public class PrintLL {
     public static Node head;
 
     // Function to print the linked list
