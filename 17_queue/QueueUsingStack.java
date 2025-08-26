@@ -49,9 +49,9 @@ public class QueueUsingStack {
         q.add(2);
         q.add(3);
 
-        System.out.println(q.remove()); // 1
-        System.out.println(q.peek());   // 2
-        System.out.println(q.remove()); // 2
-        System.out.println(q.remove()); // 3
+        System.out.println(q.remove()); 
+        System.out.println(q.peek());   
+        System.out.println(q.remove()); 
+        System.out.println(q.remove()); 
     }
 }
